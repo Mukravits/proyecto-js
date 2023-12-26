@@ -1,1 +1,7 @@
-alert("hola mundo con javascript");
+var nombre = "mauricio";
+var edad;
+var apellido;
+
+
+alert("hola mundo con javascript" +nombre);
+
