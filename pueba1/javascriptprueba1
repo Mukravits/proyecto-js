@@ -1,7 +1,14 @@
 var nombre = "mauricio";
-var edad;
-var apellido;
+var edad = 30;
+var presenteoNO = true;
+var apellido = "de paula";
+var estatura = 1.80;
 
+console.log("Nombre: " + nombre);
+console.log("Edad: " + edad);
+console.log("presenteoNo ": + presenteoNo);
+console.log("Apellido: " + apellido);
+console.log("Estatura: " + estatura);
 
-alert("hola mundo con javascript" +nombre);
+// alert("hola mundo con javascript" +nombre);
 
