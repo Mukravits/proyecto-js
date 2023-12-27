@@ -6,3 +6,5 @@ if (true) {
 }
 
 console.log(nombre);
+
+const email = suscribirte.@acadamy.com";
