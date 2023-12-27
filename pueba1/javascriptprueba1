@@ -4,7 +4,7 @@ var presenteoNO = true;
 var apellido = "de paula";
 var estatura = 1.80;
 
-console.log("Nombre: " + nombre);
+console.log("Nombre: " + nombre + " " + typeof nombre);
 console.log("Edad: " + edad);
 console.log("presenteoNo: " + presenteoNO);
 console.log("Apellido: " + apellido);
