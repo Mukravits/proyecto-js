@@ -33,7 +33,8 @@ var color = prompt("Ingrese un color");
             console.log("es verde");
         break;
 
-        case default:
+        default:
                 console-log(" El color no es valido");
-
+        break;
+        
     }
