@@ -34,7 +34,7 @@ var color = prompt("Ingrese un color");
         break;
 
         default:
-                console-log(" El color no es valido");
+                console.log(" El color no es valido");
         break;
-        
+
     }
