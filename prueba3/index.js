@@ -9,11 +9,31 @@
 
 // ejemplo de if & else 
 
-var aprobe = true;
+// s
 
-if (aprobe == true) {
-    console.log("puedo salir");
-}
-else {
-    console.log("tengo que seguir estudiando");
-}
+// // nuevo ejemplo switch
+// condicionale switch, que condiciona
+// varias opciones
+
+// prompt, permite ingresar valores por teclado
+
+var color = prompt("Ingrese un color");
+
+    switch(color) {
+
+        case "rojo":
+            console.log("es rojo");
+        break;
+
+        case "azul":
+            console.log("es azul");
+        break;
+
+        case "verde":
+            console.log("es verde");
+        break;
+
+        case default:
+                console-log(" El color no es valido");
+
+    }
