@@ -65,10 +65,20 @@
 // cierta cantidad de codiga de codigo se repite segun n cantidad de vueltas o por contador 
 // la condicion se evalua al princio del bucle 
 
-var contador = 0;
-while (contador <10) {
+// var contador = 0;
+// while (contador <10) {
     
-    console.log("vuelta Numero: " + contador);
-    contador ++;
+//     console.log("vuelta Numero: " + contador);
+//     contador ++;
+
+// }
+
+// Ejercisio con ciclo for 
+// el ciclo for, es un cicle controlado por un contador, que esta implicito en su sintaxis
+// la variable i, se utiliza como referencia a indice
+
+
+for (var i=1;i<10; i++) {
+    console.log("vuelta NUMERO: " + i);
 
 }
