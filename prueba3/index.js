@@ -78,8 +78,21 @@
 // la variable i, se utiliza como referencia a indice
 
 
-for (var i=1;i<10; i++) {
-    console.log("vuelta NUMERO: " + i);
+// for (var i=1;i<10; i++) {
+//     console.log("vuelta NUMERO: " + i);
 
-}
+// }
 
+
+// estructura do while, lo que hace es que la condicion se evalua despues, se ejecuta unicamente 1 vez y despues verifica si cumple la condicion
+
+// Estructura do {
+    
+// } while (condition);
+
+var contador = 0;
+do {
+    console.log("vuelta Numero: " + contador);
+    contador ++;
+} 
+while (contador<10);
