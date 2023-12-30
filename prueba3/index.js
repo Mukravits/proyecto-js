@@ -51,12 +51,12 @@ var resta = num1-num2;
  let imparpar = resta % 2;   //  division de resta por dos modulo para obterner valor 0 o mayor a 0 
 
         if (imparpar==0) {
-    console.log("Es par");
+        console.log("Es par");
 
-        }
-        else {
+        }else {
             console.log("Es impar");
         }
+
     }else {
         console.log("es menor o igual a 0");   
     }
