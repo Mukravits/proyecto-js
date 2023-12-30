@@ -41,3 +41,22 @@
 
 // ejercicio de condicionales
 
+var num1 = prompt ("ingrese el numero 1");
+var num2 = prompt ("ingrese el numero 2");
+
+var resta = num1-num2;
+
+    if (resta>0) {
+        console.log("Es mayor a 0");
+ let imparpar = resta % 2;   //  division de resta por dos modulo para obterner valor 0 o mayor a 0 
+
+        if (imparpar==0) {
+    console.log("Es par");
+
+        }
+        else {
+            console.log("Es impar");
+        }
+    }else {
+        console.log("es menor o igual a 0");   
+    }
