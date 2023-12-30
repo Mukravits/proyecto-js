@@ -17,24 +17,27 @@
 
 // prompt, permite ingresar valores por teclado
 
-var color = prompt("Ingrese un color");
+// var color = prompt("Ingrese un color");
 
-    switch(color) {
+//     switch(color) {
 
-        case "rojo":
-            console.log("es rojo");
-        break;
+//         case "rojo":
+//             console.log("es rojo");
+//         break;
 
-        case "azul":
-            console.log("es azul");
-        break;
+//         case "azul":
+//             console.log("es azul");
+//         break;
 
-        case "verde":
-            console.log("es verde");
-        break;
+//         case "verde":
+//             console.log("es verde");
+//         break;
 
-        default:
-                console.log(" El color no es valido");
-        break;
+//         default:
+//                 console.log(" El color no es valido");
+//         break;
 
-    }
+//     }
+
+// ejercicio de condicionales
+
