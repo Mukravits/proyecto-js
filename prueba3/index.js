@@ -85,6 +85,7 @@
 
 
 // estructura do while, lo que hace es que la condicion se evalua despues, se ejecuta unicamente 1 vez y despues verifica si cumple la condicion
+// esta codicion permite acceder o ejecutar una vez y despues, en caso de no cumplir detener el bucle.
 
 // Estructura do {
     
@@ -96,3 +97,4 @@ do {
     contador ++;
 } 
 while (contador<10);
+
