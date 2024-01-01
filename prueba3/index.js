@@ -136,9 +136,8 @@
 //     }
 
 
-manejo de constrir o manejo de fechas
-ejemplo con funciones Date
+// manejo de constrir o manejo de fechas
+// ejemplo con funciones Date
 
 var fecha =  new Date();
     alert("La fecha de hoy es: " + fecha);
-     
