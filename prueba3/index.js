@@ -140,5 +140,15 @@
 // ejemplo con funciones Date es la fecha actual automaticamente
 // para las fechas enero sera el mes 0
 
-var fecha =  new Date(1984, 01, 07);
-    alert("La fecha de hoy es: " + fecha);
+// var fecha =  new Date(1984, 01, 07);
+var fecha = new Date ("05/25/2023"); // en formato texto los meses si corresponden a su numero
+//alert("La fecha de hoy es: " + fecha);
+
+//funciones especiales para agregar fechas con metodos
+    var dia = fecha.getDate
+    var mes = fecha.getMonth
+    var anio = fecha.getFullYear
+
+    alert("Dia: " + dia + "Mes: " + (mes+1) + "Año: "  + anio);
+
+
