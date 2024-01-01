@@ -102,10 +102,10 @@
 // ejercicio 2, realizar cuenta regresiva de 10 a 0, mostrar mensaje Feliz año.Ejercicios
 // ejercicio2 
 
-for (var i=10;i>=0; i--);
+for (var i=10;i>=0;i--);
     console.log(i);
-    alert ("Feliz aÑo Nuevo")
-    console.log("feliz aÑo Nuevo");
+    alert ("Feliz aÑo Nuevo");
+    // console.log("feliz aÑo Nuevo");
 
 
 // var contador = 0;
