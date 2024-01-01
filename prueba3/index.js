@@ -102,11 +102,11 @@
 // ejercicio 2, realizar cuenta regresiva de 10 a 0, mostrar mensaje Feliz año.Ejercicios
 // ejercicio2 
 
-for(var i=10;i>=0;i--) {
-    console.log(i);
+// for(var i=10;i>=0;i--) {
+//     console.log(i);
     
-}
-alert ("Feliz aÑo Nuevo");
+// }
+// alert ("Feliz aÑo Nuevo");
     // console.log("feliz aÑo Nuevo");
 
 
@@ -116,4 +116,14 @@ alert ("Feliz aÑo Nuevo");
 //     console.log("vuelta Numero: " + contador);
 //     contador ++;
 
+// Nuevos conceptos, funciones predefinidas en javascript
+// prompt, es una de las fuciones 
 
+// ejemplo
+// var respuesta = window.prompt("ingresa una texto");
+
+// alert ("Su respuesta fue: " + respuesta);
+ 
+ventanas de confirmacion
+
+window.confirm("Quieres suscribirte al canal")
