@@ -126,11 +126,19 @@
  
 // ventanas de confirmacion
 
-var confirmacion = window.confirm("Quieres suscribirte al canal");
+// var confirmacion = window.confirm("Quieres suscribirte al canal");
 
-    if (confirmacion == true) {
-        alert ("Muchas gracias por suscribirte, sos un crack!");
+//     if (confirmacion == true) {
+//         alert ("Muchas gracias por suscribirte, sos un crack!");
 
-    } else {
-        alert (" los siento, sigue intentando: ");
-    }
+//     } else {
+//         alert (" los siento, sigue intentando: ");
+//     }
+
+
+manejo de constrir o manejo de fechas
+ejemplo con funciones Date
+
+var fecha =  new Date();
+    alert("La fecha de hoy es: " + fecha);
+     
