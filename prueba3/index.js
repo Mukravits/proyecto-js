@@ -98,9 +98,9 @@
 } 
 // while (contador<10);
 
-Ejercicios, estructura repetitiva para mostrar numeros del 1 al 35 
-ejercicio 2, realizar cuenta regresiva de 10 a 0, mostrar mensaje Feliz año.Ejercicios
-ejercicio2 
+// Ejercicios, estructura repetitiva para mostrar numeros del 1 al 35 
+// ejercicio 2, realizar cuenta regresiva de 10 a 0, mostrar mensaje Feliz año.Ejercicios
+// ejercicio2 
 
 for (var i=10;i>=0; i--);
     console.log(i);
@@ -108,13 +108,10 @@ for (var i=10;i>=0; i--);
     console.log("feliz aÑo Nuevo");
 
 
-
-
-
-var contador = 0;
-while (contador <10) {
+// var contador = 0;
+// while (contador <10) {
     
-    console.log("vuelta Numero: " + contador);
-    contador ++;
+//     console.log("vuelta Numero: " + contador);
+//     contador ++;
 
 
