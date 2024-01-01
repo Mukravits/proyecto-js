@@ -124,6 +124,6 @@
 
 // alert ("Su respuesta fue: " + respuesta);
  
-ventanas de confirmacion
+// ventanas de confirmacion
 
 window.confirm("Quieres suscribirte al canal")
