@@ -95,7 +95,7 @@
 // do {
 //     console.log("vuelta Numero: " + contador);
 //     contador ++;
-} 
+ 
 // while (contador<10);
 
 // Ejercicios, estructura repetitiva para mostrar numeros del 1 al 35 
