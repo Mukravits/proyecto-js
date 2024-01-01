@@ -126,4 +126,11 @@
  
 // ventanas de confirmacion
 
-window.confirm("Quieres suscribirte al canal")
+var confirmacion = window.confirm("Quieres suscribirte al canal");
+
+    if (confirmacion == true) {
+        alert ("Muchas gracias por suscribirte, sos un crack!");
+
+    } else {
+        alert (" los siento, sigue intentando: ");
+    }
