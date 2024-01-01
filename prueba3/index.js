@@ -137,7 +137,8 @@
 
 
 // manejo de constrir o manejo de fechas
-// ejemplo con funciones Date
+// ejemplo con funciones Date es la fecha actual automaticamente
+para las fechas enero sera el mes 0
 
-var fecha =  new Date();
+var fecha =  new Date(1984, 01, 07);
     alert("La fecha de hoy es: " + fecha);
