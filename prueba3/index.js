@@ -173,14 +173,14 @@
 
 //Ejercicios para comparar fechas y determinar cual de ellas es y a que dia de la semana corresponde
 
-var fechaingreso = window.prompt("ingrese la fecha actual con formato mm/dd/yyyy");
+var fechaingreso = window.prompt("ingrese la fecha actual", "mm/dd/yyyy"); //la variable fechaingreso guarda en texto ingresado
 
-    var fecha = new Date (fechaingreso);
-        var dia = fecha.getDay();
-        var diasemana;
+    var fecha = new Date (fechaingreso); //obtenemos un Date que la pc puede leer y se guarda en la var fecha y le asiganamos el contenido de fechaingreso 
+        var dia = fecha.getDay(); // esta variable extrae la informacion del solo el dia en el formato fecha en numero
+        var diasemana; //almacenara el resultado del la operacion de la funcion switch, que alfinal sera utilizada
        
         switch (dia) {
-
+// dia sera la variable intercambiada por un string en base a su valor segun el formato de numeracion automatico. 
             case 0:
                 diasemana = "Domingo";
             break;
