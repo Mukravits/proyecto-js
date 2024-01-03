@@ -173,8 +173,8 @@
 
 //Ejercicios para comparar fechas y determinar cual de ellas es y a que dia de la semana corresponde
 
-var fecha = newdate(2024, 3, 1); 
-    window.prompt("ingrese la fecha actual");
+var fecha = Date
+    window.prompt("ingrese la fecha actual con formato aaaa/mm/dd");
 
     alert("El dia de la semana es: ");
 
