@@ -170,5 +170,6 @@ var valor2 = parseInt(window.prompt("Ingrese el otro valor: "));
     else {
         alert("El segundo valor es mayor: " + valor2);
     }
+    
 
 
