@@ -173,9 +173,43 @@
 
 //Ejercicios para comparar fechas y determinar cual de ellas es y a que dia de la semana corresponde
 
-var fecha = Date
-    window.prompt("ingrese la fecha actual con formato aaaa/mm/dd");
+var fechaingreso = window.prompt("ingrese la fecha actual con formato mm/dd/yyyy");
 
-    alert("El dia de la semana es: ");
+    var fecha = new Date (fechaingreso);
+        var dia = fecha.getDay();
+        var diasemana;
+       
+        switch (dia) {
+
+            case 0:
+                diasemana = "Domingo";
+            break;
+
+            case 1:
+                diasemana = "Lunes";
+            break;
+
+            case 2:
+                diasemana = "Martes";
+            break;
+
+            case 3:
+                diasemana = "Miercoles";
+            break;
+
+            case 4:
+                diasemana = "Jueves";
+            break;
+
+            case 5:
+                diasemana = "Viernes";
+            break;
+
+            case 6:
+                diasemana = "Sabado";
+            break;
+        }
+
+    alert("El dia de la semana es: " + diasemana);
 
 
