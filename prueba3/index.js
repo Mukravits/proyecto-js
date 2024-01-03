@@ -156,9 +156,12 @@
 
 
 //ejercicio, sobre prompt para ingresar texto e informar por medio de un alert
+// el comando o metodo parseInt conviete un string a numero como valor entero, asi el resultado al obtenerlo 
+// sera un caracter numero y no una cadena de caracteres.
 
-var valor1 = window.prompt("Ingrese el primer numero: ");
-var valor2 = window.prompt("Ingrese el otro valor: ");
+
+var valor1 = parseInt(window.prompt("Ingrese el primer numero: "));
+var valor2 = parseInt(window.prompt("Ingrese el otro valor: "));
 
     if (valor1>valor2) {
         alert("El valor mayor es: " + valor1);
