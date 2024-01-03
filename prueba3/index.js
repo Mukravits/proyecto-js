@@ -145,14 +145,27 @@
 //alert("La fecha de hoy es: " + fecha);
 
 //funciones especiales para agregar fechas con metodos
-var fecha = new Date (1984, 1, 7);
+// var fecha = new Date (1984, 1, 7);
 
-    var dia = fecha.getDate
-    var mes = fecha.getMonth
-    var anio = fecha.getFullYear
+//     var dia = fecha.getDate
+//     var mes = fecha.getMonth
+//     var anio = fecha.getFullYear
 
-    alert("Dia: " + dia + "Mes: " + (mes+1) + "Año: "  + anio);
-    console.log(dia + mes + anio);
-    
+//     alert("Dia: " + dia + "Mes: " + (mes+1) + "Año: "  + anio);
+//     console.log(dia + mes + anio);
+
+
+//ejercicio, sobre prompt para ingresar texto e informar por medio de un alert
+
+var valor1 = window.prompt("Ingrese el primer numero: ");
+var valor2 = window.prompt("Ingrese el otro valor: ");
+
+    if (valor1>valor2) {
+        alert("El valor mayor es: " + valor1);
+
+    }
+    else {
+        alert("El segundo valor es mayor: " + valor2);
+    }
 
 
