@@ -160,16 +160,22 @@
 // sera un caracter numero y no una cadena de caracteres.
 
 
-var valor1 = parseInt(window.prompt("Ingrese el primer numero: "));
-var valor2 = parseInt(window.prompt("Ingrese el otro valor: "));
+// var valor1 = parseInt(window.prompt("Ingrese el primer numero: "));
+// var valor2 = parseInt(window.prompt("Ingrese el otro valor: "));
 
-    if (valor1>valor2) {
-        alert("El valor mayor es: " + valor1);
+//     if (valor1>valor2) {
+//         alert("El valor mayor es: " + valor1);
 
-    }
-    else {
-        alert("El segundo valor es mayor: " + valor2);
-    }
-    
+//     }
+//     else {
+//         alert("El segundo valor es mayor: " + valor2);
+//     }
+
+//Ejercicios para comparar fechas y determinar cual de ellas es y a que dia de la semana corresponde
+
+var fecha = newdate(2024, 3, 1); 
+    window.prompt("ingrese la fecha actual");
+
+    alert("El dia de la semana es: ");
 
 
