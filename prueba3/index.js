@@ -141,14 +141,18 @@
 // para las fechas enero sera el mes 0
 
 // var fecha =  new Date(1984, 01, 07);
-var fecha = new Date ("05/25/2023"); // en formato texto los meses si corresponden a su numero
+// var fecha = new Date ("05/25/2023"); // en formato texto los meses si corresponden a su numero
 //alert("La fecha de hoy es: " + fecha);
 
 //funciones especiales para agregar fechas con metodos
+var fecha = new Date (1984, 1, 7);
+
     var dia = fecha.getDate
     var mes = fecha.getMonth
     var anio = fecha.getFullYear
 
     alert("Dia: " + dia + "Mes: " + (mes+1) + "Año: "  + anio);
+    console.log(dia + mes + anio);
+    
 
 
