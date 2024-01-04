@@ -173,43 +173,54 @@
 
 //Ejercicios para comparar fechas y determinar cual de ellas es y a que dia de la semana corresponde
 
-var fechaingreso = window.prompt("ingrese la fecha actual", "mm/dd/yyyy"); //la variable fechaingreso guarda en texto ingresado
+// var fechaingreso = window.prompt("ingrese la fecha actual", "mm/dd/yyyy"); //la variable fechaingreso guarda en texto ingresado
 
-    var fecha = new Date (fechaingreso); //obtenemos un Date que la pc puede leer y se guarda en la var fecha y le asiganamos el contenido de fechaingreso 
-        var dia = fecha.getDay(); // esta variable extrae la informacion del solo el dia en el formato fecha en numero
-        var diasemana; //almacenara el resultado del la operacion de la funcion switch, que alfinal sera utilizada
+//     var fecha = new Date (fechaingreso); //obtenemos un Date que la pc puede leer y se guarda en la var fecha y le asiganamos el contenido de fechaingreso 
+//         var dia = fecha.getDay(); // esta variable extrae la informacion del solo el dia en el formato fecha en numero
+//         var diasemana; //almacenara el resultado del la operacion de la funcion switch, que alfinal sera utilizada
        
-        switch (dia) {
-// dia sera la variable intercambiada por un string en base a su valor segun el formato de numeracion automatico. 
-            case 0:
-                diasemana = "Domingo";
-            break;
+//         switch (dia) {
+// // dia sera la variable intercambiada por un string en base a su valor segun el formato de numeracion automatico. 
+//             case 0:
+//                 diasemana = "Domingo";
+//             break;
 
-            case 1:
-                diasemana = "Lunes";
-            break;
+//             case 1:
+//                 diasemana = "Lunes";
+//             break;
 
-            case 2:
-                diasemana = "Martes";
-            break;
+//             case 2:
+//                 diasemana = "Martes";
+//             break;
 
-            case 3:
-                diasemana = "Miercoles";
-            break;
+//             case 3:
+//                 diasemana = "Miercoles";
+//             break;
 
-            case 4:
-                diasemana = "Jueves";
-            break;
+//             case 4:
+//                 diasemana = "Jueves";
+//             break;
 
-            case 5:
-                diasemana = "Viernes";
-            break;
+//             case 5:
+//                 diasemana = "Viernes";
+//             break;
 
-            case 6:
-                diasemana = "Sabado";
-            break;
-        }
+//             case 6:
+//                 diasemana = "Sabado";
+//             break;
+//         }
 
-    alert("El dia de la semana es: " + diasemana);
+//     alert("El dia de la semana es: " + diasemana);
 
+//Nuevo ejercicio, ARRAYS (Vectore y Matrices)
+
+// Un Array puede almacenar varias variables o tener varios contenedores siendo estructuras fijas que no podran cambiar
+// su tamaño, podaran ser unidimensionales uno sobre otra o bidimencionales varias filas o varias columnas.
+// los vectores unidimensionales, matrices bidimencionales.
+// un array en una especie de contenedor, ya sea en vector o matriz para varios datos
+let miVector = [1,2,3,4,5,6];
+    console.log(miVector);
+
+let miMatriz = [[1,2,3],[4,5,6],[7,8,9]];
+    console.log(miMatriz);
 
