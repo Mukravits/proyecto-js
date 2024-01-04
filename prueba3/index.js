@@ -269,9 +269,9 @@ let paisesLATAM = [
                   ];
 
   for (let fila=0; fila<paisesLATAM,length; fila++) {
-    for (let c=0; c<paisesLATAM[fila].length c++) {
+    for (let i=0; i<paisesLATAM[fila].length i++) {
 
-        console.log(paisesLATAM[fila][c]);
+        console.log(paisesLATAM[fila][i]);
     }
 
   }
