@@ -251,12 +251,18 @@
 //para hacer un recorrido con un ARRAY y mostrar el contenido por cada contenido
 // se utiliza length, que servira como <> que para determinar una posicion y mostrar su contenido
 
-let paisesLATAM = ["Argentina, Mexico, Venezuela, Colombia"]; //se crea el vector con su contenido en la variable
-//asigna un valor i, de index como cero para despues asignarle un recorrdo de siempre que sea menor a paises.length aunmente una mas, lo que desplazara los campos 
-   //importante determinar que se muestre el array de la variable i antes seleccionada para que realize la funcion de recorrido
+let paisesLATAM = ["Argentina", "Mexico", "Venezuela", "Colombia"]; //se crea el vector con su contenido en la variable
+// asigna un valor i, de index como cero para despues asignarle un recorrdo de siempre que sea menor a paises.length aunmente una mas, lo que desplazara los campos 
+//    importante determinar que se muestre el array de la variable i antes seleccionada para que realize la funcion de recorrido
 
  for (let i=0; i<paisesLATAM.length; i++) { 
    console.log(paisesLATAM[i]);
 }
   console.log(paisesLATAM);
   
+// ejercicio con matriz, 
+
+// let paisesLATAM = [
+//                   ["Argentina, Mexico, Venezuela, Colombia"],
+//                   ["Chile, Ur"uguay, Peru, Brazil"],
+//                   ["Ecuador", "El salvador", "Bolivia"]
