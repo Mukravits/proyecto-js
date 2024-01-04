@@ -10,5 +10,5 @@ console.log("presenteoNo: " + presenteoNO);
 console.log("Apellido: " + apellido);
 console.log("Estatura: " + estatura);
 
-// alert("hola mundo con javascript" +nombre);
+alert("hola mundo con javascript: " +nombre);
 
