@@ -268,10 +268,11 @@ let paisesLATAM = [
                   ["Ecuador", "El salvador", "Bolivia"]
                   ];
 
-  for (let fila=0; fila<paisesLATAM,length; fila++) {
-    for (let i=0; i<paisesLATAM[fila].length i++) {
+  for (let f=0; f<paisesLATAM,length; f++) {
+    for (let i=0; i<paisesLATAM[fila].length; i++) {
 
-        console.log(paisesLATAM[fila][i]);
+        console.log(paisesLATAM[f][i]);
     }
 
   }
+    //console.log(paisesLATAM);
