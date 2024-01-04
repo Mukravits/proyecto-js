@@ -224,3 +224,4 @@ let miVector = [1,2,3,4,5,6];
 let miMatriz = [[1,2,3],[4,5,6],[7,8,9]]; //en las matrices hay filas y columnas.
     //console.log(miMatriz);
     console.log(miMatriz[1][1]); //en este caso mostrara de la columna 1, el numero 2 y de la fila 2, el mostrara el 5
+    
