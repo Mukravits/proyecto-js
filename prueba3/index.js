@@ -217,10 +217,10 @@
 // Un Array puede almacenar varias variables o tener varios contenedores siendo estructuras fijas que no podran cambiar
 // su tamaño, podaran ser unidimensionales uno sobre otra o bidimencionales varias filas o varias columnas.
 // los vectores unidimensionales, matrices bidimencionales.
-// un array en una especie de contenedor, ya sea en vector o matriz para varios datos
+// un array en una especie de contenedor, ya sea en vector o matriz para varios datos, una especie de excel.
 let miVector = [1,2,3,4,5,6];
-    console.log(miVector);
-
-let miMatriz = [[1,2,3],[4,5,6],[7,8,9]];
-    console.log(miMatriz);
-
+    //console.log(miVector);
+    console.log(miVector[2]); //para mostrar un valor destro del consele agrego el [] y el contener que busco, informacio se muestra de 0-10, porlo que el #3 es 2
+let miMatriz = [[1,2,3],[4,5,6],[7,8,9]]; //en las matrices hay filas y columnas.
+    //console.log(miMatriz);
+    console.log(miMatriz[1][1]); //en este caso mostrara de la columna 1, el numero 2 y de la fila 2, el mostrara el 5
