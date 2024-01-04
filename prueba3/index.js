@@ -232,12 +232,12 @@
     // vector [2] = "tercerposicion";
 
     //como crear una matriz con un ciclo for, SOLO CREA LOS CONTENEDORES habra que asignarle valores despues
-    let matriz = new Array (3);
-        for (let i=0;i<3;i++) {
+//     let matriz = new Array (3);
+//         for (let i=0;i<3;i++) {
 
-          matriz[i] = new Array (3);
-        }
-console.log(matriz);
+//           matriz[i] = new Array (3);
+//         }
+// console.log(matriz);
 
     
 // ya con valores seria 
@@ -248,3 +248,14 @@ console.log(matriz);
 //  let matriz2 = [persona0, persona1, persona2]; //aqui se genera la matriz con los vectores anteriores 
 //         console.log (matriz2);
 
+//para hacer un recorrido con un ARRAY y mostrar el contenido por cada contenido
+// se utiliza length, que servira como <> que para determinar una posicion y mostrar su contenido
+
+let paisesLATAM = ["Argentina, Mexico, Venezuela, Colombia"]; //se crea el vector con su contenido en la variable
+
+ for (let i=0; i<paisesLATAM.length; i++) { //asigna un valor i, de index como cero para despues asignarle un recorrdo de siempre que sea menor a paises.length aunmente una mas, lo que desplazara los campos 
+   //importante determinar que se muestre el array de la variable i antes seleccionada para que realize la funcion de recorrido
+   console.log(paisesLATAM[i]);
+}
+  console.log(paisesLATAM);
+  
