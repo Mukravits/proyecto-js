@@ -237,6 +237,14 @@
 
           matriz[i] = new Array (3);
         }
+console.log(matriz);
 
     
+// ya con valores seria 
+//  let persona0 = ["mauricio", "hernandez", "hernandez"];
+//  let persona1 = ["marco", "aurelio", "alonso"];
+//  let persona2 = ["lisa", "lopez", "reyes"];
+
+//  let matriz2 = [persona0, persona1, persona2]; //aqui se genera la matriz con los vectores anteriores 
+//         console.log (matriz2);
 
