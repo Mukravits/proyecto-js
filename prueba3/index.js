@@ -260,20 +260,45 @@
 // }
 //   console.log(paisesLATAM);
   
-// ejercicio con matriz, 
+// ejercicio con matriz, para recorrer e imprimir uno por uno donde variable i es columna
 
-let paisesLATAM = [
-                  ["Argentina", "Mexico", "Venezuela", "Colombia"],
-                  ["Chile", "Uruguay", "Peru", "Brazil"],
-                  ["Ecuador", "El salvador", "Bolivia"]
-                  ];
+// let paisesLATAM = [
+//                   ["Argentina", "Mexico", "Venezuela", "Colombia"],
+//                   ["Chile", "Uruguay", "Peru", "Brazil"],
+//                   ["Ecuador", "El salvador", "Bolivia"]
+//                   ];
 
-  for (let f=0; f<paisesLATAM,length; f++) {
-    for (let i=0; i<paisesLATAM[fila].length; i++) {
+//   for (let f=0; f<paisesLATAM.length; f++) {
+//     for (let i=0; i<paisesLATAM[f].length; i++) {
 
-        console.log(paisesLATAM[f][i]);
-    }
+//         console.log(paisesLATAM[f][i]);
+//     }
 
-  }
+//   }
     //console.log(paisesLATAM);
-  
+
+  //METODOS para los arrays, metodos para agregar, ordernar, modificar, eliminar, filtrar u obterner informacion
+  //reducir o acumular valores
+
+  //ejemplo con frutas
+
+  let frutas = ["naranjas", "bananas", "kiwi", "cafe", "elote"];
+    frutas.push("manzanas", "peras", "sandias"); //agregas un nuevo elemento al final
+
+    // frutas.pop(); //() borrara el ultimo elemento
+    // frutas.shift();// ()borrara el primer elemento
+    frutas.unshift("melones"); //dentro del () agregamos un nuevo elemento al inicio
+  console.log(frutas);
+
+//uno de los metodos mas utilizados es el filtrar, filter, se incuye un nuevo elemento como vector fruta dentro de un metodo de filtro furtas.filiter que esta en frutasconA. agregando fruta como nuevo 
+let frutasconA = frutas.filter(fruta => fruta.includes("a"));// la fucion en el metodo, indica que fruta en singular sera = o > a una fruta incluida la letra a en ella 
+  console.log(frutasconA);
+
+  //para unir con concatenar varios vectores en uno solo de ser necesario, seria asi
+
+  let frutas1 = ["naranjas", "bananas", "kiwi"];
+  let frutas2 = ["piÑas", "melones", "cocos"];
+
+  let TODASfrutas = frutas1.concat(frutas2); // en la variable TODASfrutras hacemos la union con el metodo para tener una nueva entera
+  console.log(TODASfrutas);// se tendra que genera una variable nueva para almacenar ahora el nuevo vector completo
+
