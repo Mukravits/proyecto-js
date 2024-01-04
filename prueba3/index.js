@@ -231,10 +231,12 @@
     // vector [1] = "hernandez";
     // vector [2] = "tercerposicion";
 
-    //como crear una matriz con un ciclo for
+    //como crear una matriz con un ciclo for, SOLO CREA LOS CONTENEDORES habra que asignarle valores despues
     let matriz = new Array (3);
         for (let i=0;i<3;i++) {
 
           matriz[i] = new Array (3);
         }
+
+    
 
