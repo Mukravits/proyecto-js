@@ -302,3 +302,25 @@
   // let TODASfrutas = frutas1.concat(frutas2); // en la variable TODASfrutras hacemos la union con el metodo para tener una nueva entera
   // console.log(TODASfrutas);// se tendra que genera una variable nueva para almacenar ahora el nuevo vector completo
 
+//FUNCIONES.
+//Funciones, es un bloque de codigo reutilizable que pueden ejecutar una tarea especifica. esas funciones solo hacen tareas individuales, agrupando una logica en parametros y obtener un retorno como resultado 
+//con un codigo limpio e invocar la funcion sin tener que repetir codigo.
+
+// function saludar() {
+//   console.log("Hola, Esroy en la funcion");
+
+// }
+
+// saludar(); 
+//de esta manera se invoca la funcion. puede ser con un valor o solo un procedimiento solo hacer una accion como saludar
+
+function sumar (num1,num2) {
+  // se declara la variable y se le asigna dos parametros despues, asigno la operacion y finalmente guardamos con return y le asignamos el resultado 
+  let resultado;
+  resultado = num1+num2;
+return resultado;
+// hasta este punto la funcion no se ejecuta hasta que se invoque la funcio sumar, sumar debe ser guardado en variable mas para poder se mostrada en consola
+}
+
+let suma = sumar (5,2);
+console.log("El resultado es: " + suma);
