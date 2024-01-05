@@ -324,3 +324,8 @@ return resultado;
 
 let suma = sumar (5,2);
 console.log("El resultado es: " + suma);
+
+suma=sumar (10,4);
+console.log("nueva suma, el resultado es: " + suma);
+// este ejemplo reusa el codigo y solo asigna parametros nuevos y la funcion se ejecuta sin tener que duplicar codigos.
+
