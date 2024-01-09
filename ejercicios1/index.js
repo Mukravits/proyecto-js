@@ -1,12 +1,14 @@
 
+// ejercio de matriz para localizar un determinado objeto
+//ejemplo con herramientas
 
-if (true) {
-    var nombre="suscribirse";
+let matrizH = new Array (3);
 
-}
+let Tool0 = ["martillo", "pinzas", "machete"];
+let Tool1 = ["desarmador", "taladro", "navaja"];
+let Tool2 = ["cinta", "tijeras", "mazo"];
 
-console.log(nombre);
-
+    console.log (matrizH);
 
 
 
