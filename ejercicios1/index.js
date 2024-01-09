@@ -15,16 +15,17 @@ let Tool2 = ["cinta", "tijeras", "mazo"];
         alert ("Su respuesta fue: " + respuesta);
         // para mostrar los datos por separado se usara length
  for (let N=0;N<matrizH.length; N++) {
-    for (let M=0;M<matrizH[N].length; M++)
+    for (let M=0;M<matrizH[N].length; M++) {
    
     console.log(matrizH[N][M]);// mostrara la interseccion de la posicion que se busca
 
-    if (matrizH[N]==respuesta) {
+    if (matrizH[N][M]===respuesta) {
 
-        console.log("Estoy en la herraminta y su posicion es: ", );
+        console.log("Estoy en la herraminta y su posicion es: ", respuesta);
     }
+} 
+ } 
 
- }
     
 
 
