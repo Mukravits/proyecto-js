@@ -9,30 +9,46 @@ let Tool2 = ["cinta", "tijeras", "mazo"];
 
     let matrizH = [Tool0, Tool1, Tool2];
 
-
-    for (let i=0; i<matrizH; i++) {
-     console.log(matrizH[i]);
-
-    } 
     console.log (matrizH);
 
     var respuesta = window.prompt("ingresa la herramienta que buscas: ");
         alert ("Su respuesta fue: " + respuesta);
+        // para mostrar los datos por separado se usara length
+ for (let N=0;N<matrizH.length; N++) {
+    for (let M=0;M<matrizH[N].length; M++)
+   
+    console.log(matrizH[N][M]);// mostrara la interseccion de la posicion que se busca
 
-     let  index = respuesta; 
+    if (matrizH[N]==respuesta) {
 
-     for (let f=0; <=2; f++) {
-        console.log(matrizH[f]);
-     for (let N=0; <2; N++) {
-            console.log(matrizH[N]);
+        console.log("Estoy en la herraminta y su posicion es: ", );
+    }
 
-if(matrizH [f][N]==index){
-    alert("La herramienta fue encontrada en pasicion:  " + index);
+ }
+    
 
-}
 
-        }
-       } 
+
+
+
+
+
+
+
+//      let  index = respuesta; 
+
+//      for (let f=0; <=2; f++) {
+//         console.log(matrizH[f]);
+//      for (let N=0; <2; N++) {
+//             console.log(matrizH[N]);
+
+// if(matrizH [f][N]==index){
+//     alert("La herramienta fue encontrada en pasicion:  " + index);
+
+// }
+
+//         }
+//        } 
 
 
 
