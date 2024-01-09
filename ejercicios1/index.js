@@ -8,25 +8,27 @@ let Tool1 = ["desarmador", "taladro", "navaja"];
 let Tool2 = ["cinta", "tijeras", "mazo"];
 
     let matrizH = [Tool0, Tool1, Tool2];
+    
 
     console.log (matrizH);
 
     var respuesta = window.prompt("ingresa la herramienta que buscas: ");
         alert ("Su respuesta fue: " + respuesta);
         // para mostrar los datos por separado se usara length
- for (let N=0;N<matrizH.length; N++) {
+ for (let N=0;N<matrizH.length; N++) 
     for (let M=0;M<matrizH[N].length; M++) {
    
     console.log(matrizH[N][M]);// mostrara la interseccion de la posicion que se busca
 
     if (matrizH[N][M]===respuesta) {
 
-        console.log("Estoy en la herraminta", "y su posicion es: ");
-              //console.log(matrizH[N][M]);
-
+            console.log("Estoy en la herraminta", "y su posicion es: ");
+            console.log([N]);
+            console.log([M]);
+              //al separar los indices de las variables asignadas a las filas y columnas me muesta el numero del indice correcto!
+    
+        } 
     }
-} 
- } 
 
 //para crear una matriz vacia seria
 // let matriz = new Array (3);
