@@ -21,7 +21,7 @@ let Tool2 = ["cinta", "tijeras", "mazo"];
 
     if (matrizH[N][M]===respuesta) {
 
-        console.log("Estoy en la herraminta y su posicion es: ", respuesta);
+        console.log("Estoy en la herraminta y su posicion es: ", [N][M]);
     }
 } 
  } 
