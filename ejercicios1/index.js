@@ -19,15 +19,15 @@ let Tool2 = ["cinta", "tijeras", "mazo"];
     var respuesta = window.prompt("ingresa la herramienta que buscas: ");
         alert ("Su respuesta fue: " + respuesta);
 
-     let  respuesta = index; 
+     let  index = respuesta; 
 
      for (let f=0; <=2; f++) {
         console.log(matrizH[f]);
      for (let N=0; <2; N++) {
             console.log(matrizH[N]);
 
-if(matrizH [f][N]==respuesta){
-    alert("La herramienta fue encontrada en pasicion:  " + respuesta);
+if(matrizH [f][N]==index){
+    alert("La herramienta fue encontrada en pasicion:  " + index);
 
 }
 
