@@ -14,6 +14,11 @@ let Tool2 = ["cinta", "tijeras", "mazo"];
 
     } 
     console.log (matrizH);
+
+    var respuesta = window.prompt("ingresa la herramienta que buscas: ");
+        alert ("Su respuesta fue: " + respuesta);
+
+        
         
 
 
