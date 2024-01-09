@@ -21,12 +21,19 @@ let Tool2 = ["cinta", "tijeras", "mazo"];
 
     if (matrizH[N][M]===respuesta) {
 
-        console.log("Estoy en la herraminta y su posicion es: ", [N][M]);
+        console.log("Estoy en la herraminta", "y su posicion es: ");
+              //console.log(matrizH[N][M]);
+
     }
 } 
  } 
 
-    
+//para crear una matriz vacia seria
+// let matriz = new Array (3);
+//     for (let i=0;i<3;i++) {
+
+//         matriz[i] = new Array (3);
+//     }
 
 
 
