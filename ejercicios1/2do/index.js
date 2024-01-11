@@ -9,7 +9,7 @@
        for (let m=0;m<matrizA.length; m++)  
     for (let n=0;n<matrizA[m].length; n++) { 
    
-        window.prompt("ingresa valor que quieres guardar: ", + [][]);
+        window.prompt("ingresa valor que quieres guardar: ",  , "ingresa otro: "  );
         
         } 
         console.log(matrizA);
